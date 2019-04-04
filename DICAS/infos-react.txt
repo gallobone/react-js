@@ -1,0 +1,13 @@
+React:
+
+- Não é um framework, é uma biblioteca javascript. 
+- Está mais próximo do jQuery
+- O React serve para criar interfaces visuais (UI) User Interface
+
+-------------------------------------------------------------------
+
+O React usa JSX(Javascript Syntax Extension), que permite escrever HTML dentro do javascript, ao invés de 
+colocar javascript dentro do HTML.
+
+
+-------------------------------------------------------------------

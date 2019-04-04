@@ -1,0 +1,12 @@
+
+ABRA O PROMPT DE COMANDO E EXECUTE:
+npm install -g create-react-app
+
+--------------------------------------
+
+DEPOIS DA RESPOSTA DESSE PRIMEIRO COMANDO ACIMA, EXECUTE:
+
+create-react-app nome-do-app
+
+
+-------------------------------------

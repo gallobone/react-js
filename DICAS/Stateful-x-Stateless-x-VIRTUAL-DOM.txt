@@ -1,0 +1,45 @@
+Elemento STATE
+
+State representa o estado do componente e não da aplicação
+
+State: o lugar onde os dados chegam e são tranformados ao longo do tempo.
+
+Nem todos os componentes tem um State, porem todos os componentes que tem um STATE, esse STATE cuida
+apenas do próprio componente.
+
+
+COMPONENTES STATEFULL:
+São componentes quem TEM um ESTADO
+São conhecidos também como CONTAINERS.
+
+Os Containers cuidam:
+- da apresentação de dados(podem armazernar dados e pode repassar dados para outro componente STATELESS usando PROPS)
+- da lógica
+- da transformação de dados
+
+OBS: Componentes STATEFULL devem ser obrigatoriamente uma CLASSE
+
+---------------------------------------------------------------------------
+
+COMPONENTES STATELESS
+São componentes sem ESTADO
+São componentes do tipo PRESENTATIONAL
+
+---------------------------------------------------------------------------
+
+REACT usa o componente VIRTUAL DOM
+Ele faz uma copia do DOM no inicio da aplicação e trabalha nessa cópia.
+
+Conforme voce altera componentes, ele faz uma comparacao dos elementos que foram carregados no DOM, e recarrega/altera somente
+os que foram alterados(e consequentemente seus componentes-filhos, caso existam).
+Portanto o React trabalha no VIRTUAL DOM
+
+
+
+
+
+
+
+
+
+

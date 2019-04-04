@@ -1,0 +1,4 @@
+Props - abreviação de properties
+
+É um recurso do React que é usado para passar parâmetros entre um 
+COMPONENTE PAI e um COMPONENTE FILHO
