@@ -10,3 +10,9 @@ create-react-app nome-do-app
 
 
 -------------------------------------
+
+DEPOIS, SE TIVER USANDO O YARN, EXECUTE:
+
+yarn start
+
+Geralmente, o comando rendereiza a aplicação criada em localhost:300
