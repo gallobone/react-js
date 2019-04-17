@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {Route} from 'react-router-dom'
 
 import AdminMenu from './AdminMenu';
+import AdminPortfolio from './AdminPortfolio'
 
 
 class Admin extends Component {
@@ -13,8 +14,8 @@ class Admin extends Component {
         return (
             <div>
                 <h2>Painel Administrativo</h2>
-                <Route path={'/'} component={AdminMenu}/>
-                <p>{JSON.stringify(this.props)}</p>
+                <Route path={`/`} component={AdminMenu}/>
+                <Route path={`${this.props.match.url}/portfolio`} component={AdminPortfolio} />
             </div>
         )
     }

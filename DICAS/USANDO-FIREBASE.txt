@@ -1,0 +1,10 @@
+O que é o Firebase?
+
+Firebase é um banco de dados do google.
+Não é relacional, ele trabalha com objetos (Objetos JSON)
+
+É um banco de dados REAL TIME, 
+Em caso de atualização no banco de dados, a alteração ja reflete na aplicação, e 
+em caso de alteração aplicação, já reflete no banco de dados, sem necessidade de refresh na pagina.
+
+

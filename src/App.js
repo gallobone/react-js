@@ -27,7 +27,6 @@ class App extends Component {
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/precos' component={Precos} />
           <Route path='/contato' component={Contato} />
-
           <Route path='/admin' component={Admin} />
 
 
